@@ -31,12 +31,8 @@ for i in f:
     
     if sol == 1:
         n += 1
-        print("Valid! " + str(n) + " | " + i)
-        print(letter)
-        print(letters)
-        print(pwd)
+        print("Valid!")
     else:
-        print("Invalid" + " | " + i)
-        print(letter)
-        print(letters)
-        print(pwd)
+        print("Invalid")
+
+print(n)
